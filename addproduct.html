@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopmate - Admin & Store</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<section class="add-product-container">
+    <div class="product-form-card">
+        <h2>Add New <span>Product</span></h2>
+        <p>Enter details to list a product in the shop.</p>
+        
+        <div class="input-group">
+            <label>Product Name</label>
+            <input type="text" id="pName" placeholder="e.g. Wireless Headphones">
+        </div>
+
+        <div class="input-group">
+            <label>Price (Rs.)</label>
+            <input type="number" id="pPrice" placeholder="e.g. 2500">
+        </div>
+
+        <div class="input-group">
+            <label>Image URL</label>
+            <input type="text" id="pImg" placeholder="https://link-to-image.jpg">
+        </div>
+
+        <button class="add-product-btn" id="saveProductBtn">
+            <span class="btn-icon">+</span> Add Product
+        </button>
+    </div>
+</section>
+
+<script type="module" src="./app.js"></script>
+</body>
+</html>
