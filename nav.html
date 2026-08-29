@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="logo">SHOP<span>MATE</span></div>
+
+  <!-- <div class="search-container">
+    <input type="text" placeholder="Search products...">
+    <button>Search</button>
+  </div> -->
+
+  <!-- <ul class="nav-links" id="navLinks">
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">Categories</a></li>
+    <li><a href="#">Deals</a></li>
+  </ul> -->
+
+  <div class="nav-icons">
+    <div class="nav-icons">
+    <button class="add-nav-btn" onclick="location.href='./addproduct.html'">
+        + Add Product
+    </button>
+    
+</div>
+    <span class="cart-icon">🛒<small>0</small></span>
+    <button class="logout-btn" id="logoutBtn">Logout</button>
+        <!-- <div class="menu-toggle" id="menuToggle">☰</div> -->
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Quality Products <br><span>Delivered To You</span></h1>
+    <p>Shop the latest trends with our new Watch collection. Fast delivery and 24/7 support.</p>
+    <div class="hero-btns">
+      <button class="btn-primary">Shop Now</button>
+      <button class="btn-secondary">Learn More</button>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="./photo-1523275335684-37898b6baf30.jfif" alt="Product">
+  </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Latest <span>Products</span></h2>
+    <div class="categories-grid" id="productContainer">
+        </div>
+</section>
+
+
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <div class="logo2">SHOP<span>MATE</span></div>
+            <p>Your one-stop destination for premium electronics and gadgets. Quality guaranteed.</p>
+            <div class="social-links">
+                <a href="#">FB</a>
+                <a href="#">IG</a>
+                <a href="#">TW</a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="./nav.html">Home</a></li>
+                <li><a href="./addproduct.html">Add Product</a></li>
+                <li><a href="#">Order Tracking</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Contact Us</h4>
+            <div class="contact-info">
+                <p>📍 Karachi, Pakistan</p>
+                <p>📞 +92 300 1234567</p>
+                <p>✉️ support@shopmate.com</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; 2024 ShopMate Ecommerce. All Rights Reserved.</p>
+    </div>
+</footer>
+<script src="app.js" type="module"></script>
+</body>
+</html>
